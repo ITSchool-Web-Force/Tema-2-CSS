@@ -1,0 +1,71 @@
+body {
+    background-image: radial-gradient(white, #eefff9, #eefff9);
+  }
+  main {
+    background-image: radial-gradient(white, #e8f5fd);
+    display: block;
+    width: 1300px;
+    height: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    border-radius: 20px;
+  }
+  h1 {
+    font-size: xx-large;
+    font-style: italic;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  nav li {
+    display: flex;
+    width: 80px;
+    height: 20px;
+    border-right: black 10px solid;
+    border-radius: 40px;
+    background: #e8f5fd;
+  }
+  li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  .buton {
+    background-color: #e8f5fd;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 8px 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+  }
+  .buton:hover {
+    background-color: #fd9494;
+  }
+  article {
+    display: block;
+    border: black 1px solid;
+    position: center;
+    max-width: 1000px;
+    align-self: center;
+    margin: 10px;
+  }
+  p {
+    align-self: center;
+    margin: 5%;
+    text-align: justify;
+  }
+  img {
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
