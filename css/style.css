@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700");
+
+body {
+  background: radial-gradient(#c5ecdd, #e7eeec);
+}
+
+main {
+  box-sizing: content-box;
+  background: radial-gradient(#b9dbcf, #cde4dd);
+  box-shadow: 0.38rem 0.32rem 0.32rem rgba(176, 181, 180, 0.5);
+  display: flex;
+  width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 70vh;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.63rem;
+  padding: 0.32rem;
+}
+
+header {
+  margin-left: 1.25rem;
+}
+
+header h1 {
+  color: #000;
+  font-style: italic;
+}
+
+nav button {
+  background: transparent;
+  width: 9.38rem;
+  height: 3.13rem;
+  align-items: center;
+  border-right: 0.63rem #000 solid;
+  border-radius: 3.13rem;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover,
+.active {
+  background-color: #ff9494;
+  cursor: pointer;
+}
+
+article {
+  background: #eee;
+  width: 35rem;
+  min-height: 70vh;
+  border: 0.06rem solid #000;
+  border-left: 0.13rem solid #000;
+  margin-top: 1.25rem;
+  margin-left: 1.25rem;
+  margin-right: -1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+article .img_1 {
+  width: 35rem;
+  height: auto;
+  margin-bottom: -0.25rem;
+}
+
+.img_2 {
+  position: absolute;
+  left: 2.5rem;
+  width: 13.75rem;
+  height: auto;
+}
+
+.img_3 {
+  width: 35rem;
+  height: auto;
+  margin-bottom: -0.25rem;
+}
+
+.img_4 {
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  width: 12.5rem;
+  height: auto;
+}
+
+.img_5 {
+  position: absolute;
+  top: 12.19rem;
+  left: 15.63rem;
+  width: 18.75rem;
+  height: auto;
+}
+
+.dividing {
+  background: linear-gradient(#f74510, #8b7617);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #eee;
+}
+
+.container ul {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.32rem;
+  font-weight: 400;
+  color: #e0962d;
+  font-family: "Rubik 80s Fade", cursive;
+  list-style: none;
+}
+
+ul > li:hover {
+  color: #eee;
+  transform: scale(1.1);
+  cursor: pointer;
+}
