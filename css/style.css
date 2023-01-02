@@ -29,21 +29,22 @@ header h1 {
   font-style: italic;
 }
 
-nav button {
+nav a {
+  color: #000;
   background: transparent;
-  width: 9.38rem;
-  height: 3.13rem;
+  padding: 0.6em 1.5em;
+  text-decoration: none;
   align-items: center;
-  border-right: 0.63rem #000 solid;
+  border-right: 0.45rem #000 solid;
   border-radius: 3.13rem;
   border-left: none;
   border-bottom: none;
   border-top: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-button:hover,
+a:hover,
 .active {
   background-color: #ff9494;
   cursor: pointer;
