@@ -1,69 +1,72 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background: linear-gradient(#eefff9, #afd6c8);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  .wrap {
-    display: block;
-    background: #84e2f742;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 800px;
-    padding-left: 25px;
-    padding-right: 25px;
-    overflow: hidden;
-  }
-  h1 {
-    font-style: italic;
-  }
-  ul {
-    display: flex;
-    gap: 10px;
-    padding: 0;
-  }
-  nav li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    width: 150px;
-    height: 50px;
-    background: transparent;
-    border-right: black 10px solid;
-    border-radius: 50px;
-  }
-  li:hover {
-    background: #fd9494;
-  }
-  
-  li > a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .active {
-    background: #fd9494;
-  }
-  main {
-    border: 1px solid black;
-    padding: 20px;
-    overflow: hidden;
-  }
-  h2 {
-    color: rgb(207, 31, 22);
-  }
-  a {
-    color: rgb(207, 31, 22);
-    text-decoration: none;
-  }
-  img {
-    transition: transform 0.3s;
-  }
-  img:hover {
-    transform: scale(1.05);
-  }
-  
+  background: linear-gradient(#eefff9, #afd6c8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.wrap {
+  display: block;
+  background: #84e2f742;
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+  max-width: 50rem;
+  padding-inline-start: 2em;
+  padding-inline-end: 2em;
+  overflow: hidden;
+}
+h1 {
+  font-style: italic;
+}
+ul {
+  display: flex;
+  gap: 1em;
+  padding: 0;
+}
+nav li {
+  list-style-type: none;
+}
+a:hover {
+  background: #fd9494;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 9rem;
+  height: 3rem;
+  background: transparent;
+  border-inline-end: black 0.5rem solid;
+  border-radius: 5rem;
+}
+.active {
+  background: #fd9494;
+  border-radius: 5rem;
+}
+main {
+  border: 1px solid black;
+  padding: 1rem;
+  overflow: hidden;
+}
+h2 {
+  color: rgb(207, 31, 22);
+}
+a {
+  color: rgb(207, 31, 22);
+  text-decoration: none;
+}
+img {
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.05);
+}
