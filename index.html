@@ -5,16 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tema CSS</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #ffffff 51.04%,
+          #edfff7 100%
+        );
+
+        min-height: 100vh;
+        margin: 0;
+      }
+      .container {
+        --margin: 1rem;
+
+        background: rgba(168, 192, 255, 0.17);
+        box-shadow: 0.5rem 0.6rem 0.8rem -0.5rem rgba(0, 0, 0, 0.25);
+        border-radius: 0.7rem;
+        width: 80ch;
+        margin-inline: auto;
+        margin: var(--margin) auto;
+        min-height: calc(100vh - 2 * var(--margin));
+      }
+      .navigation a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        font-family: inter;
+      }
+      h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1>George</h1>
-      <nav>
-        <a href="#">acasa</a>
-        <a href="#">servicii</a>
-        <a href="#">contact</a>
-      </nav>
-    </header>
-    ZONA LIBERA IN CARE POTI SA ADAUGI ABSOLUT ORICE VREI
+    <div class="container">
+      <header>
+        <h1>George</h1>
+        <nav class="navigation">
+          <a href="#">acasă</a>
+          <a href="#">servicii</a>
+          <a href="#">contact</a>
+        </nav>
+      </header>
+      <main>ZONA LIBERA IN CARE POTI SA ADAUGI ABSOLUT ORICE VREI</main>
+    </div>
   </body>
 </html>
