@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema CSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #ffffff 51.04%,
+          #edfff7 100%
+        );
+
+        margin: 0;
+      }
+      .container {
+        --margin: 1.5rem;
+
+        background: rgba(168, 192, 255, 0.17);
+        box-shadow: 0.5rem 0.6rem 0.8rem -0.5rem rgba(0, 0, 0, 0.25);
+        border-radius: 0.7rem;
+        width: 80ch;
+        min-height: calc(70vh - 2 * var(--margin));
+        padding: 0.5rem 1.5rem;
+        margin-inline: auto;
+        margin: var(--margin) auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 1.9rem;
+        font-family: "Frank Ruhl Libre", serif;
+        font-weight: bold;
+        font-style: italic;
+      }
+      .navigation a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        font-family: "Inter", sans-serif;
+        padding: 0.3rem 1rem;
+        margin-block: 0.5rem;
+        display: inline-block;
+        border-inline-end: 0.4rem solid #000;
+        border-radius: 2rem;
+      }
+      .nav-item.active,
+      .nav-item:hover,
+      .nav-item:focus,
+      .nav-item:active {
+        background: #ff9494;
+      }
+      .content-zone {
+        margin-block-start: 0.8rem;
+        margin-block-end: 1.2rem;
+        padding: 1rem;
+        border: 1px solid #000;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>George</h1>
+        <nav class="navigation">
+          <a href="#" class="nav-item active">acasă</a>
+          <a href="#" class="nav-item">servicii</a>
+          <a href="#" class="nav-item">contact</a>
+        </nav>
+      </header>
+      <main class="content-zone">
+        ZONĂ LIBERĂ, ÎN CARE POȚI SĂ ADAUGI ABSOLUT ORICE VREI
+      </main>
+    </div>
+  </body>
+</html>
